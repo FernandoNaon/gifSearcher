@@ -1,0 +1,23 @@
+.container {
+}
+
+.gifs {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  margin: 4rem;
+}
+
+.input {
+  width: 10rem;
+  height: 2rem;
+  box-shadow: 5px 7px blueviolet;
+}
+.btn {
+  box-shadow: 5px 7px blueviolet;
+}
