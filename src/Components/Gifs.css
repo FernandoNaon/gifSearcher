@@ -5,6 +5,7 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  margin: 10rem;
 }
 
 .form {
@@ -20,4 +21,8 @@
 }
 .btn {
   box-shadow: 5px 7px blueviolet;
+}
+
+.loaderContainer {
+  margin-left: 45vw;
 }

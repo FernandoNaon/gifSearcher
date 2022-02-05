@@ -6,7 +6,7 @@ import "./Gifs.css";
 const Gif = () => {
   const [data, setData] = useState([]);
   const [search, setSearch] = useState("");
-  const [loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState(true);
   const [error, setError] = useState(false);
 
   useEffect(() => {
@@ -37,7 +37,11 @@ const Gif = () => {
 
   const renderGifs = () => {
     if (loading) {
-      return <Loader />;
+      return (
+        <div className="loaderContainer">
+          <Loader />
+        </div>
+      );
     }
     return data.map((el) => {
       return (
